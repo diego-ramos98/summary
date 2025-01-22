@@ -1,0 +1,31 @@
+@use '../abstract/variaveis';
+@use '../abstract/root';
+@use '../abstract/mixin';
+
+.section-sumary{
+    padding: 20px;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    li{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+       
+        
+        div{
+            display: flex;
+            gap: 10px;
+
+        }
+        
+    }
+}

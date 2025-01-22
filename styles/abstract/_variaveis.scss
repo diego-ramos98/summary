@@ -7,17 +7,19 @@ $green-teal: hsl(166, 100%, 37%);
 $cobalt-blue: hsl(234, 85%, 45%);
 
 
+
 //Gradients
 
 $ligth-slate-blue:  hsl(252, 100%, 67%);
 $color-primary: hsl(241, 81%, 54%);
 $violet-blue: hsla(256, 72%, 46%, 1);
 $persian-blue: hsla(241, 72%, 46%, 0);
-
+$gradient-primary:  linear-gradient(to bottom, #7857ff, #694cf9, #5941f4, #4736ee, #2e2be9);
+$gradient-secundary:  linear-gradient(to top, #2e2be9, #3a28e1, #4226d9, #4923d2, #4e21ca);
 
 // Neutral
 $white: hsl(0, 0%, 100%);
 $pale-blue: hsl(221, 100%, 96%);
 $dark-gray-blue: hsl(224, 30%, 27%);
 
-$f-family: "Hanken Grotesk", serif;
+$f-principal: "Hanken Grotesk", serif;

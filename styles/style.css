@@ -1,1 +1,81 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-pontuation {
+  background: linear-gradient(to bottom, #7857ff, #694cf9, #5941f4, #4736ee, #2e2be9);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.section-pontuation h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.section-pontuation div {
+  background: linear-gradient(to top, #2e2be9, #3a28e1, #4226d9, #4923d2, #4e21ca);
+  border-radius: 60px;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-pontuation div .pontuation-number {
+  font-size: 4rem;
+  margin-top: 0px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-family: "Hanken Grotesk", serif;
+}
+.section-pontuation div p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: hsl(224, 30%, 27%);
+  font-family: "Hanken Grotesk", serif;
+  margin-bottom: 2px;
+}
+.section-pontuation h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  font-family: "Hanken Grotesk", serif;
+  margin-bottom: 2px;
+}
+.section-pontuation p {
+  font-size: 1.1rem;
+  font-family: "Hanken Grotesk", serif;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.section-sumary {
+  padding: 20px;
+}
+.section-sumary ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-sumary li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.section-sumary li div {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

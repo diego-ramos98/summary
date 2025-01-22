@@ -2,4 +2,70 @@
 @use '../abstract/root';
 @use '../abstract/mixin';
 
+.section-pontuation{
+    background: variaveis.$gradient-primary;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px;
+    
+    h1{
+        color: variaveis.$white;
+        font-family: variaveis.$f-principal;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
 
+    div{
+        background: variaveis.$gradient-secundary;
+        border-radius: 60px;
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+       
+
+        .pontuation-number{
+            font-size: 4rem;
+            margin-top: 0px;
+            color: variaveis.$white;
+            font-weight: 600;
+            font-family: variaveis.$f-principal;
+            
+        }
+
+        p{
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: variaveis.$dark-gray-blue;
+            font-family: variaveis.$f-principal;
+            margin-bottom: 2px;
+        }
+        
+       
+    }
+    h2{
+        color: variaveis.$white;
+        font-size: 2rem;
+        font-family: variaveis.$f-principal;
+        margin-bottom: 2px;
+    }
+
+    p{
+        font-size: 1.1rem;
+        font-family: variaveis.$f-principal;
+        text-align: center;
+        color: variaveis.$white;
+        font-weight: 600;
+        text-wrap: balance;
+    }
+
+    
+}
