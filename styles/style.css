@@ -105,6 +105,18 @@ body {
   color: hsl(234, 85%, 45%);
   font-weight: 700;
 }
+.section-sumary ul a {
+  margin-top: 20px;
+  background-color: hsl(224, 30%, 27%);
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1.4rem;
+}
 .section-sumary li {
   list-style: none;
   display: flex;
