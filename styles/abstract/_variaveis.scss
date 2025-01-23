@@ -1,10 +1,18 @@
 //colors
 
 // Primary
-$light-red: hsl(0, 100%, 67%);
-$orange-yellow: hsl(39, 100%, 56%);
-$green-teal: hsl(166, 100%, 37%);
-$cobalt-blue: hsl(234, 85%, 45%);
+$light-red: hsla(0, 100%, 67%);
+$orange-yellow: hsla(39, 100%, 56%);
+$green-teal: hsla(166, 100%, 37%);
+$cobalt-blue: hsla(234, 85%, 45%);
+
+
+
+$light-red-opacity: hsla(0, 100%, 67%, 0.063);
+$orange-yellow-opacity: hsla(39, 100%, 56%, 0.084);
+$green-teal-opacity: hsla(166, 100%, 37%, 0.082);
+$cobalt-blue-opacity: hsla(234, 85%, 45%, 0.103);
+
 
 
 
