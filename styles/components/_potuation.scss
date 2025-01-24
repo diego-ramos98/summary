@@ -1,6 +1,7 @@
-@use '../abstract/variaveis';
 @use '../abstract/root';
-@use '../abstract/mixin';
+@use '../abstract/variaveis';
+
+
 
 .section-pontuation{
     background: variaveis.$gradient-primary;

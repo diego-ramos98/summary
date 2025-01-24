@@ -1,6 +1,0 @@
-
-@mixin tablet-desktop-media {
-    @media screen and (min-width: 368px){
-        @content;
-    }
-}
