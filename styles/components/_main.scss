@@ -1,0 +1,16 @@
+@use '../abstract/variaveis';
+@use '../abstract/root';
+@use '../abstract/mixin';
+
+
+main {
+   @include tablet-desktop-media{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+    
+   
+}

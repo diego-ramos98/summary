@@ -1,6 +1,6 @@
-@mixin C($f-family,$f-weigth,$f-color,$f-size){
-    font-family: $f-family;
-    font-weight: $f-weigth;
-    color: $f-color;
-    font-size: $f-size;
+
+@mixin tablet-desktop-media {
+    @media screen and (min-width: 368px){
+        @content;
+    }
 }
